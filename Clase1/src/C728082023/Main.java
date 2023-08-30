@@ -67,6 +67,17 @@ public class Main {
         //Ejemplo de polimorfismo mediante sobrecarga
         System.out.println("En la clase padre el método da como resultado: " + calculadoraCasioC.sumar(10.43,5.55));
 
+    //
+        ArrayList<String> formatos = new ArrayList<>();
+        CalculadoraFinanciera calculadoraRolexF = new CalculadoraFinanciera();
+        System.out.println(calculadoraRolexF.getFormatosPermitidos());
+        calculadoraRolexF.setPermiteGraficar(true);
+        calculadoraRolexF.setFormatosPermitidos(formatos);
+        System.out.println(calculadoraRolexF);
+
+
+
+
 
     }
 }
