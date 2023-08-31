@@ -19,7 +19,7 @@ public class Arrays {
         //instancia lo vamos rellenando
 
         int[] numeros = {1, 2, 4, 5, 7, 8};
-        //System.out.println(Arrays.toString(numeros));
+        //System.out.println(Arrays.toString(numeros));??
         //este arreglo va a ser fijo y no modificable, no se recomienda usar mucho. Además, a veces imprime mal,
         //en vez del contenido imprime la dirección en la memoria de la variable.
         System.out.println(numeros);
@@ -29,15 +29,13 @@ public class Arrays {
 
         //Agregar al ArrayList
         //.add me permite ingresar nuevos datos strings
-        /*estudiantesCyberpunk.add("Angel");
+        estudiantesCyberpunk.add("Angel");
         estudiantesCyberpunk.add("Matías");
         estudiantesCyberpunk.add("Lizette");
 
-         */
-
-        //Arraylist que vamos a utilizar
 
 
+        //Arraylist que vamos a utilizar la mayoría de las veces:
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i <= 5; i++) {
             System.out.println("Ingresa a un nuevo estudiante");
@@ -51,17 +49,13 @@ public class Arrays {
         //la diferencia es que el .lenght es una propiedad y el .size es un método
         //.get retorna algo según el índicee indicado, recordar que parte desde el 0
 
-        String estudianteExpulsado = estudiantesCyberpunk.remove(((estudiantesCyberpunk.size() - 2 )));
+        String estudianteExpulsado = estudiantesCyberpunk.remove(estudiantesCyberpunk.size() - 2 );
         System.out.println(estudianteExpulsado);
         //El set permite cambiar el valor que esté alojado en un índice
         estudiantesCyberpunk.set(0, "Alba");
         System.out.println(estudiantesCyberpunk);
         //El índice en Java también parte desde 0
         System.out.println("El estudiante en la tercera posición es: " + estudiantesCyberpunk.get(2));
-
-        //INVESTIGAR: HashSet, funciona muy similar al ArrayList pero no permite duplicados
-        //HashMap, tiene par llave-valor
-
 
 
 
@@ -73,10 +67,6 @@ public class Arrays {
         }
 
        */
-
-
-
-
 
     }
 }

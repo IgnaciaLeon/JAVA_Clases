@@ -2,6 +2,8 @@ package C728082023;
 
 public class Calculadora {
 
+    //OBJETOS
+
     //no necesitamos un método main, ya que no vamos a ejecutar el programa, sólo vamos a acceder a él.
 
     //le quitamos el static porque limita de cierta manera el acceso a las funciones y métodos que creamos.
@@ -33,7 +35,8 @@ public class Calculadora {
         Double ancho;
         String marca;
         //Boolean esCinetifica;
-        // Por ej, aquí la clase padre podría ser calculadora y las hijas calculadora cientifica y calculadora financiera.
+        // Por ej, aquí la clase padre (superclass) podría ser calculadora y las hijas (subclass) calculadora cientifica
+        // y calculadora financiera.
         Integer memoria;
         Integer cantidadMaxDeDigitos;
 
@@ -64,7 +67,6 @@ public class Calculadora {
 
     //Método toString: permite imprimir el objeto como string en vez de como direccion en memoria.
     // Click derecho-> Generate -> toString.
-
 
     //Override:
     @Override

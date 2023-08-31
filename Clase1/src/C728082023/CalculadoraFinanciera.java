@@ -25,7 +25,7 @@ public class CalculadoraFinanciera extends Calculadora {
     //Accesadores y mutadores:
     //son metodos que permiten la lectura y asignacion de un valor a un atributo.
     //getter y setter
-    //settter accede a la instancia y permite cambiar un atributo en particylar
+    //settter accede a la instancia y permite cambiar un atributo en particular
     //getter me permite acceder al valor para su lectura
     //el setter para datos muy delicados no se utiiza, sólo el getter para su lectura
 

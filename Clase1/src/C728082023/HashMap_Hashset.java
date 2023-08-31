@@ -34,10 +34,10 @@ public class HashMap_Hashset {
         //los métodos remove y add retornan además de su función un boolean.
         System.out.println("Así quedaría después de la remoción: " + paises);
         //para verificar si está un elemento
-        //System.out.println(paises.contains("Chile"));
+        System.out.println(paises.contains("Chile"));
 
 
-        //solución Para buscar un valor cuando no hay índice, pero es muy engorroso
+        //solución Para buscar un valor cuando no hay índice, pero es muy engorroso (Edu)
         String paisSeleccionado = "Chile";
         if (paises.contains(paisSeleccionado)) {
             System.out.println(paisSeleccionado);
@@ -45,11 +45,10 @@ public class HashMap_Hashset {
             System.out.println("No está presente");
         }
 
-     //Buscar.valueOf
+     //Buscar.valueOf: El método valueOf de String devuelve el valor primitivo de un objeto String como un tipo de
+        // dato cadena. Este valor es equivalente a String. toString.
 
-     //Hashset imprime ente [] es un array, el hashmap entre {} es un objeto.
-
-
+                //Hashset imprime entre [] es un array, el hashmap entre {} es un objeto.
 
 
         //HashMap, a difencia de hashset que sólo tiene un valor, éste tiene par llave-valor
@@ -71,8 +70,8 @@ public class HashMap_Hashset {
         //este método . sirve para obtener la llave de un valor
 
 
-        //ForEach: me permite iterar para cada item que esté en un conjunto de datos, es otra sintaxis
-        // que me permite iterar sobre colecciones.
+        //ForEach: me permite iterar para cada item que esté en un conjunto de datos, es otra sintaxis que me permite
+        // iterar sobre colecciones.
         //.keySet me permite obtener una lista de las llaves que hay.
         for (String pais : paisCapital.keySet()) {
             System.out.println("El país es: " + pais);

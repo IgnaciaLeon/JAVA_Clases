@@ -3,7 +3,7 @@ package C725082023;
 import java.util.Scanner;
 
 
-public class Repaso2 {
+public class Repaso_Sintaxis_Calculator {
 
 
         //función sin retorno

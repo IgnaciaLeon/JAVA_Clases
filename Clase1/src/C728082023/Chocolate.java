@@ -32,7 +32,8 @@ public class Chocolate {
                 '}';
     }
 
-    //3. Getter y Eter
+    //3. Getter y Setter
+
     //4.Métodos: que cosas puede hacer el chocolate, acciones que puede realizar.
     public String derretirse () {
         return "Estoy derretido";

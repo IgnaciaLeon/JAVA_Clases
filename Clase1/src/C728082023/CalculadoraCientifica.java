@@ -4,6 +4,8 @@ import java.util.ArrayList;
 
 //Herencia: permite heredar atributos y métodos, y en Java se utiliza mediante la palabra extends.
 //Polimorfismo: permite indicar un comportamiento propio para los métodos de una clase que hereda.
+//La herencia nos permite heredar atributos y métodos de otra clase. El polimorfismo utiliza esos métodos para
+// realizar diferentes tareas. Esto nos permite realizar una misma acción de diferentes maneras.
 
 public class CalculadoraCientifica extends Calculadora {
 

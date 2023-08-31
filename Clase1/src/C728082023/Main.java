@@ -4,15 +4,16 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        /*
+
 
         //Se va a importar un package siempre que, cuando importemos algo, estemos en otra carpeta o directorio,
-        //en caso de que la clase o archivo se encunetre en el mismo package, no se
-        //importará nada.
-        //Por buenas párcticas los nombres de las clases siempre empiezan por una mayúscula
+        //en caso de que la clase o archivo se encuentre en el mismo package, no se importará nada.
+        //Por buenas párcticas los nombres de las clases siempre empiezan por una mayúscula.
 
         //Para crear nueva instancia:
-        //Indicamos el tipo de dato + el nombre de la variable +
+        //Indicamos el tipo de dato + el nombre de la variable +....
+
+        //MAIN CALCULADORA:
 
         Calculadora calculator = new Calculadora();
         //arriba, primero estamos llamando a la calculadora  que elaboramos en una clase pasada,
@@ -23,11 +24,11 @@ public class Main {
         System.out.println(calculator.sumar(5,5));
 
         //Acceder a los atributos
-        Calculadora calculadoraCasio = new Calculadora("Plata", 10.00, 5.00, "Casio", true, 10, 15);
+        Calculadora calculadoraCasio = new Calculadora("Plata", 10.00, 5.00, "Casio",
+                true, 10, 15);
         System.out.println(calculadoraCasio.toString());
 
-
-
+        //MAIN CHOCOLATE:
         ArrayList<Chocolate> cajaDeChocolates = new ArrayList<>();
 
         System.out.println("Iniciamos la fábrica de chocolate");
@@ -38,7 +39,7 @@ public class Main {
             System.out.println("El chocolate nº:" + i + " tiene las características: " + chocolateNuevo);
         }
 
-
+      //MAIN ESTUDIANTE
 
        for (int i = 0; i < 1; i++) {
             Estudiante student = new Estudiante("Alejandra", "Suazo", 27, "mujer",
@@ -46,19 +47,19 @@ public class Main {
             System.out.println(student);
         }
 
-
         Estudiante student = new Estudiante("Alejandra", "Suazo", 27, "mujer",
                 79654098, "San Miguel");
         System.out.println(student.promedioNotas(5.6, 6.2, 4.5, 6.9));
 
         //System.out.println(student.pasaDeCurso(student.promedioNotas()));
 
-*/
-      //Herencia Padre-Hijo:
+
+      //Herencia Padre-Hijo MAIN CALCULADORA CIENTIFICA Y FINANCIERA:
 
         CalculadoraCientifica calculadoraCasioC = new CalculadoraCientifica();
         System.out.println(calculadoraCasioC.restar(50, 20));
         System.out.println(calculadoraCasioC.datosTrigonometricos("Seno"));
+
         Calculadora calculadoraNormal = new Calculadora();
         //Ejemplo polimorfismo mediante sobreescritura
         System.out.println("En la clase padre el método da como resultado: " + calculadoraNormal.restar(10,5));
@@ -67,7 +68,7 @@ public class Main {
         //Ejemplo de polimorfismo mediante sobrecarga
         System.out.println("En la clase padre el método da como resultado: " + calculadoraCasioC.sumar(10.43,5.55));
 
-    //
+
         ArrayList<String> formatos = new ArrayList<>();
         CalculadoraFinanciera calculadoraRolexF = new CalculadoraFinanciera();
         System.out.println(calculadoraRolexF.getFormatosPermitidos());
